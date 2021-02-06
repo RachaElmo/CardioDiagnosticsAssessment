@@ -1,0 +1,66 @@
+#patients {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  :not(th) > table > thead:first-child {
+    background-color: red
+ }
+  #patients td, #patients th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #patients tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #patients tr:hover {background-color: #ddd;}
+  
+  #patients th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .next {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .next,.previous{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  .previous:hover,.next:hover{
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  #events {
+    margin-top:0% ;margin-bottom:2% ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #events td, #events th {
+    border: 1px solid #ddd;
+    padding: 2.5px;
+  }
+  
+  #events tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #events tr:hover {background-color: #ddd;}
+  
+  #events th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
