@@ -15,6 +15,7 @@ For third case: In the table 'event', patientID is a foreign key from 'users' wh
 
 Table :
 For the sorting of the table, the fetched data is sorted by first the patient’s study start date and I used the react-table library to sort any column that I want to be sorted either descending or ascending.
+
 Graph:
-When the user clicks on a row in the table, a line graph appears underneath the table, along with the patient name, minimum heart rate (BPM), average heart rate (BPM) and maximum heart rate (BPM).
+When the user clicks on a row in the table, a line graph appears underneath the table, along with the patient name, minimum heart rate (BPM), average heart rate (BPM) and maximum heart rate (BPM). Used Chart.js library for the line graph. The React component "Chart" takes as props the graph labels which are the event dates sorted, and the graph Data which is the heart rates corresponding to each event date.
 The graph shows the variation of Heart Rates per minute with respect to its corresponding event datetime. (That is between the patient study start time and the study end time) 
